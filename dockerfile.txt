@@ -1,0 +1,5 @@
+ls
+docker info
+docker build -t Gradeproject-jenkins-docker:${BUILD_NUMBER}
+docker tag Gradeproject-jenkins-docker:${BUILD_NUMBER} Gradeproject-jenkins-docker:latest
+docker images
